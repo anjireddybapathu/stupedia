@@ -1,0 +1,8 @@
+import com.pxxy.djpt.bean.Material;
+import com.pxxy.djpt.bean.Student;
+
+public class AjaxAction extends MyActionSupport {
+	private Admin admin;
+	private Student stu;
+	private Material material;
+	public Material getMaterial() {
